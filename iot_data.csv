@@ -1,0 +1,101 @@
+Timestamp,Package_ID,Carrier,Origin,Destination,Status,Temperature_C,Humidity_pct,Shock_Detected,Est_Delivery_Hrs
+2025-01-01 08:00:00,PKG1000,LBC,Cagayan de Oro,Quezon City,Delivered,25.99,58.62,False,53.2
+2025-01-01 08:30:00,PKG1001,J&T Express,Manila,Manila,Delivered,19.55,63.19,False,12.9
+2025-01-01 09:00:00,PKG1002,DHL,Iloilo,Quezon City,At Warehouse,30.32,67.67,False,3.4
+2025-01-01 09:30:00,PKG1003,DHL,Manila,Manila,Delivered,21.68,54.75,False,14.8
+2025-01-01 10:00:00,PKG1004,Ninja Van,Manila,Makati,Delayed,24.97,40.87,False,32.2
+2025-01-01 10:30:00,PKG1005,J&T Express,Cagayan de Oro,Manila,Delayed,27.27,44.76,False,11.8
+2025-01-01 11:00:00,PKG1006,LBC,Cebu,Makati,Delayed,20.37,45.88,False,33.9
+2025-01-01 11:30:00,PKG1007,DHL,Cagayan de Oro,Taguig,Out for Delivery,21.48,65.98,False,38.0
+2025-01-01 12:00:00,PKG1008,FedEx,Iloilo,Cebu,At Warehouse,21.82,61.11,False,44.5
+2025-01-01 12:30:00,PKG1009,FedEx,Cagayan de Oro,Taguig,Delivered,21.6,69.47,False,8.8
+2025-01-01 13:00:00,PKG1010,DHL,Cagayan de Oro,Quezon City,Out for Delivery,21.59,78.52,False,10.5
+2025-01-01 13:30:00,PKG1011,LBC,Davao,Makati,Delivered,21.87,59.94,False,65.7
+2025-01-01 14:00:00,PKG1012,Ninja Van,Cagayan de Oro,Cebu,Out for Delivery,27.29,47.79,False,23.8
+2025-01-01 14:30:00,PKG1013,LBC,Manila,Makati,Delivered,35.11,71.94,False,14.9
+2025-01-01 15:00:00,PKG1014,DHL,Iloilo,Quezon City,Out for Delivery,26.95,61.71,False,8.2
+2025-01-01 15:30:00,PKG1015,DHL,Cagayan de Oro,Cebu,Delayed,19.96,44.17,False,21.0
+2025-01-01 16:00:00,PKG1016,DHL,Iloilo,Cebu,Delayed,22.16,70.57,False,21.7
+2025-01-01 16:30:00,PKG1017,DHL,Cagayan de Oro,Quezon City,In Transit,19.48,61.34,False,58.2
+2025-01-01 17:00:00,PKG1018,FedEx,Cagayan de Oro,Quezon City,At Warehouse,21.29,66.12,False,2.4
+2025-01-01 17:30:00,PKG1019,J&T Express,Cagayan de Oro,Manila,Delayed,26.33,68.88,True,53.0
+2025-01-01 18:00:00,PKG1020,J&T Express,Cebu,Taguig,At Warehouse,20.64,56.91,False,62.4
+2025-01-01 18:30:00,PKG1021,LBC,Iloilo,Taguig,Out for Delivery,17.97,71.0,False,6.4
+2025-01-01 19:00:00,PKG1022,J&T Express,Davao,Makati,Out for Delivery,19.57,48.04,False,53.1
+2025-01-01 19:30:00,PKG1023,DHL,Iloilo,Taguig,Delivered,27.34,62.97,True,35.1
+2025-01-01 20:00:00,PKG1024,LBC,Davao,Taguig,In Transit,25.45,53.55,False,55.3
+2025-01-01 20:30:00,PKG1025,Ninja Van,Davao,Makati,At Warehouse,29.98,63.38,False,36.6
+2025-01-01 21:00:00,PKG1026,FedEx,Manila,Cebu,Out for Delivery,13.52,68.22,False,3.8
+2025-01-01 21:30:00,PKG1027,Ninja Van,Cagayan de Oro,Makati,Delayed,18.32,70.42,False,37.6
+2025-01-01 22:00:00,PKG1028,Ninja Van,Manila,Quezon City,Out for Delivery,23.12,63.57,False,30.7
+2025-01-01 22:30:00,PKG1029,LBC,Davao,Cebu,Out for Delivery,20.84,67.44,True,7.4
+2025-01-01 23:00:00,PKG1030,LBC,Cagayan de Oro,Makati,In Transit,20.77,54.98,False,67.1
+2025-01-01 23:30:00,PKG1031,J&T Express,Manila,Makati,At Warehouse,26.01,71.58,False,63.0
+2025-01-02 00:00:00,PKG1032,Ninja Van,Davao,Manila,Delivered,21.88,65.13,False,64.5
+2025-01-02 00:30:00,PKG1033,FedEx,Manila,Makati,Delivered,29.49,61.76,False,64.7
+2025-01-02 01:00:00,PKG1034,J&T Express,Cagayan de Oro,Makati,Delayed,21.19,56.72,False,18.0
+2025-01-02 01:30:00,PKG1035,J&T Express,Manila,Taguig,At Warehouse,29.09,57.08,False,62.3
+2025-01-02 02:00:00,PKG1036,FedEx,Cebu,Manila,At Warehouse,24.02,57.65,False,31.2
+2025-01-02 02:30:00,PKG1037,J&T Express,Manila,Makati,At Warehouse,22.42,57.11,False,25.6
+2025-01-02 03:00:00,PKG1038,Ninja Van,Davao,Cebu,In Transit,23.35,64.04,False,38.3
+2025-01-02 03:30:00,PKG1039,DHL,Iloilo,Quezon City,Delivered,20.23,74.04,False,70.0
+2025-01-02 04:00:00,PKG1040,LBC,Iloilo,Cebu,At Warehouse,16.32,59.73,False,21.9
+2025-01-02 04:30:00,PKG1041,FedEx,Manila,Taguig,In Transit,24.41,55.67,False,37.2
+2025-01-02 05:00:00,PKG1042,Ninja Van,Cebu,Cebu,At Warehouse,23.23,63.02,False,12.1
+2025-01-02 05:30:00,PKG1043,Ninja Van,Manila,Quezon City,In Transit,25.36,59.93,False,18.9
+2025-01-02 06:00:00,PKG1044,Ninja Van,Cagayan de Oro,Manila,At Warehouse,28.57,67.52,False,18.6
+2025-01-02 06:30:00,PKG1045,FedEx,Cebu,Taguig,Out for Delivery,20.79,73.84,True,46.3
+2025-01-02 07:00:00,PKG1046,Ninja Van,Manila,Cebu,Delivered,26.35,81.9,False,8.3
+2025-01-02 07:30:00,PKG1047,LBC,Cagayan de Oro,Taguig,Delayed,22.03,69.23,False,15.1
+2025-01-02 08:00:00,PKG1048,FedEx,Cebu,Makati,In Transit,24.4,54.97,False,49.4
+2025-01-02 08:30:00,PKG1049,DHL,Cebu,Manila,Delivered,24.04,56.34,False,17.9
+2025-01-02 09:00:00,PKG1050,FedEx,Manila,Cebu,Out for Delivery,19.75,64.74,True,50.4
+2025-01-02 09:30:00,PKG1051,DHL,Iloilo,Quezon City,Delivered,26.48,58.39,False,11.6
+2025-01-02 10:00:00,PKG1052,DHL,Cagayan de Oro,Taguig,Delayed,20.87,56.78,False,66.7
+2025-01-02 10:30:00,PKG1053,Ninja Van,Davao,Manila,Out for Delivery,22.57,65.56,False,48.2
+2025-01-02 11:00:00,PKG1054,Ninja Van,Cebu,Manila,In Transit,24.91,73.07,False,39.1
+2025-01-02 11:30:00,PKG1055,Ninja Van,Davao,Cebu,At Warehouse,22.7,57.94,False,64.8
+2025-01-02 12:00:00,PKG1056,FedEx,Davao,Quezon City,Delayed,25.04,67.82,False,25.7
+2025-01-02 12:30:00,PKG1057,Ninja Van,Cagayan de Oro,Manila,Delayed,29.2,51.33,False,64.8
+2025-01-02 13:00:00,PKG1058,J&T Express,Cebu,Quezon City,Delayed,25.0,63.46,True,46.9
+2025-01-02 13:30:00,PKG1059,FedEx,Manila,Manila,Delayed,24.91,68.47,False,2.6
+2025-01-02 14:00:00,PKG1060,DHL,Davao,Quezon City,Delayed,25.17,52.86,True,2.4
+2025-01-02 14:30:00,PKG1061,DHL,Cagayan de Oro,Makati,In Transit,24.7,47.83,False,50.4
+2025-01-02 15:00:00,PKG1062,FedEx,Cebu,Quezon City,At Warehouse,19.23,66.57,True,51.9
+2025-01-02 15:30:00,PKG1063,FedEx,Davao,Cebu,Delayed,21.0,48.7,False,54.3
+2025-01-02 16:00:00,PKG1064,DHL,Davao,Taguig,Out for Delivery,27.85,64.13,False,48.0
+2025-01-02 16:30:00,PKG1065,LBC,Cebu,Manila,In Transit,20.53,61.46,False,27.7
+2025-01-02 17:00:00,PKG1066,DHL,Cebu,Manila,In Transit,20.44,51.84,False,70.1
+2025-01-02 17:30:00,PKG1067,Ninja Van,Iloilo,Taguig,Out for Delivery,27.51,57.6,False,46.2
+2025-01-02 18:00:00,PKG1068,FedEx,Manila,Manila,Delayed,24.05,74.54,False,42.4
+2025-01-02 18:30:00,PKG1069,DHL,Cebu,Cebu,In Transit,18.37,59.65,False,52.6
+2025-01-02 19:00:00,PKG1070,J&T Express,Cagayan de Oro,Taguig,Delivered,19.72,64.82,False,67.8
+2025-01-02 19:30:00,PKG1071,Ninja Van,Davao,Manila,In Transit,23.5,67.4,False,69.7
+2025-01-02 20:00:00,PKG1072,J&T Express,Manila,Quezon City,Delivered,20.61,44.85,False,61.6
+2025-01-02 20:30:00,PKG1073,DHL,Davao,Manila,At Warehouse,20.3,54.87,False,41.0
+2025-01-02 21:00:00,PKG1074,FedEx,Iloilo,Makati,At Warehouse,24.69,63.85,False,41.9
+2025-01-02 21:30:00,PKG1075,LBC,Davao,Quezon City,In Transit,24.92,51.91,False,71.3
+2025-01-02 22:00:00,PKG1076,J&T Express,Cagayan de Oro,Manila,At Warehouse,24.23,48.57,True,63.4
+2025-01-02 22:30:00,PKG1077,Ninja Van,Cagayan de Oro,Manila,Out for Delivery,27.49,70.66,True,51.2
+2025-01-02 23:00:00,PKG1078,LBC,Cagayan de Oro,Quezon City,Delayed,18.49,50.62,False,58.7
+2025-01-02 23:30:00,PKG1079,LBC,Davao,Manila,At Warehouse,25.22,62.57,False,65.9
+2025-01-03 00:00:00,PKG1080,DHL,Cagayan de Oro,Manila,Delivered,26.06,98.53,False,57.9
+2025-01-03 00:30:00,PKG1081,DHL,Iloilo,Quezon City,At Warehouse,29.32,69.88,False,57.7
+2025-01-03 01:00:00,PKG1082,Ninja Van,Cebu,Makati,Out for Delivery,22.74,67.59,False,28.3
+2025-01-03 01:30:00,PKG1083,DHL,Manila,Manila,Out for Delivery,24.66,51.44,False,4.5
+2025-01-03 02:00:00,PKG1084,LBC,Iloilo,Makati,Delivered,33.26,41.33,False,22.1
+2025-01-03 02:30:00,PKG1085,Ninja Van,Manila,Cebu,Out for Delivery,22.34,60.8,False,4.6
+2025-01-03 03:00:00,PKG1086,LBC,Cagayan de Oro,Manila,Out for Delivery,22.11,70.89,False,10.9
+2025-01-03 03:30:00,PKG1087,Ninja Van,Cebu,Taguig,Delayed,30.24,61.29,False,17.1
+2025-01-03 04:00:00,PKG1088,FedEx,Manila,Cebu,Delivered,21.08,62.16,False,5.6
+2025-01-03 04:30:00,PKG1089,DHL,Cagayan de Oro,Manila,At Warehouse,33.56,78.43,False,46.6
+2025-01-03 05:00:00,PKG1090,Ninja Van,Cagayan de Oro,Taguig,Delivered,15.9,61.86,False,57.7
+2025-01-03 05:30:00,PKG1091,FedEx,Manila,Manila,At Warehouse,22.22,43.31,False,7.5
+2025-01-03 06:00:00,PKG1092,J&T Express,Manila,Manila,In Transit,26.02,68.66,False,30.6
+2025-01-03 06:30:00,PKG1093,J&T Express,Manila,Cebu,Out for Delivery,22.66,56.82,False,19.5
+2025-01-03 07:00:00,PKG1094,J&T Express,Cagayan de Oro,Cebu,In Transit,31.06,64.05,False,48.2
+2025-01-03 07:30:00,PKG1095,LBC,Cebu,Cebu,At Warehouse,25.51,76.51,False,44.8
+2025-01-03 08:00:00,PKG1096,FedEx,Iloilo,Cebu,Out for Delivery,17.92,55.16,False,26.9
+2025-01-03 08:30:00,PKG1097,DHL,Cagayan de Oro,Quezon City,Delayed,23.05,78.72,False,8.8
+2025-01-03 09:00:00,PKG1098,LBC,Cebu,Makati,Delayed,11.03,49.76,False,14.1
+2025-01-03 09:30:00,PKG1099,DHL,Davao,Quezon City,At Warehouse,16.02,47.0,True,45.1
