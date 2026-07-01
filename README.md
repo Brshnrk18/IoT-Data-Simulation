@@ -10,8 +10,11 @@ This project simulates IoT data from a logistics tracking system and records eac
 |---|---|
 | `iot_data.csv` | IoT sensor dataset (100 records) |
 | `iot_data.json` | IoT sensor data in JSON format |
+| `iot_logistics_charts.png` | IoT logistics data visualizations |
 | `week4_week5_blockchain_ledger.ipynb` | Jupyter Notebook for Week 4 & Week 5 milestones |
 | `IoTDataStorage.sol` | Solidity smart contract |
+| `week6_data_retrieval.py` | Week 6 – Data retrieval and processing script |
+| `cleaned_iot_data.csv` | Cleaned IoT data retrieved from blockchain (Week 6) |
 
 ## Technologies Used
 - Python 3
@@ -20,14 +23,24 @@ This project simulates IoT data from a logistics tracking system and records eac
 - Remix IDE
 - Jupyter Notebook
 - Pandas
+- NumPy
 
 ## Smart Contract
-- **Contract Address:** 0x090f65a5128C183294816008589A6231A5b43A8d
+- **Contract Address:** 0xc013102fd1FF3484d53511B358B2De524EA39234
 - **Network:** Ganache (local)
-- **Functions:** `storeData()`, `getRecord()`, `getRecordCount()`
+- **Functions:** `storeData()`, `getRecord()`, `getTotalRecords()`
 
 ## Setup Instructions
-1. Install dependencies: `pip install web3 pandas`
+1. Install dependencies: `pip install web3 pandas numpy`
 2. Open Ganache and start Quickstart
 3. Deploy `IoTDataStorage.sol` in Remix IDE using `http://127.0.0.1:7545`
-4. Run `week4_week5_blockchain_ledger.ipynb` in Jupyter Notebook
+   - Set EVM version to `paris` in Advanced Configurations before compiling
+4. Run `week4_week5_blockchain_ledger.ipynb` for Weeks 4 & 5
+5. Run `week6_data_retrieval.py` for Week 6 data retrieval and processing
+
+## Week 6 – Data Retrieval and Processing
+- Retrieved all 100 IoT records stored on the blockchain
+- Structured data into a Pandas DataFrame
+- Converted Unix timestamps to readable datetime format
+- Extracted numeric sensor values and handled missing data
+- Saved cleaned dataset as `cleaned_iot_data.csv`
